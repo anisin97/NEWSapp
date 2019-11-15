@@ -17,10 +17,10 @@ platform as per choice. You can also use GiHub Pages for hosting your version of
 We will also host various designs for the UI which can be used by the user as they prefer.
 
 # About News API
-This Web-app uses the API provided by News Api. For further queries, you can refer to newsapi.org .
+This Web-app uses the API provided by News Api. For further queries, you can refer to [News API](newsapi.org) .
 
 # For Contributors
 Contributors may use their personal key provided by News Api for customizing api requests.
 You are required to sign-in to the workspace NEWSapp on Slack and join the channel #news-web-app
-for queries and updates.
+for queries and updates. Click on the [invite link](https://join.slack.com/t/newsappglobal/shared_invite/enQtODM2NzQ4Njk4MjQwLTc5MDE4YTIwYTRjZTg3YTZjZTllNzk1ZGNiZGY0MzY1NzlhNWY0NjM3NzJjODMyNzcyODMzOTg4Njk3YjdjYWE) to join our slack channel.
 We thank you for your help!!
