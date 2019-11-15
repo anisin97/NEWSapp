@@ -17,7 +17,7 @@ platform as per choice. You can also use GiHub Pages for hosting your version of
 We will also host various designs for the UI which can be used by the user as they prefer.
 
 # About News API
-This Web-app uses the API provided by News Api. For further queries, you can refer to [News API](newsapi.org) .
+This Web-app uses the API provided by News Api. For further queries, you can refer to [News API](https://newsapi.org/) .
 
 # For Contributors
 Contributors may use their personal key provided by News Api for customizing api requests.
