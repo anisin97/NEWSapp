@@ -1,0 +1,33 @@
+html{
+    position: 0 0 ;
+    padding: 0 0 ;
+    background-image: url("map.jpg");
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.srch{
+    
+    margin: 40% 45% 40% 45%;
+    
+}
+input{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+#btn {
+    position: relative;
+    top: 46%;
+    left: 52%;
+    z-index: 3;
+    background-image: url("index.png");
+    
+    height: 40px;
+    width: 40px;
+    border: 2px ridge darkred;
+    border-radius: 8px;
+}
