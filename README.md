@@ -13,7 +13,7 @@ interesting UI, consumption and customisation of the api provided by newsapi.org
 # How to Build?
 Since it is a simple Web-App, it acts just as a simple website. So you can clone the code into 
 your local machine and run the website by hosting the files on any 
-platform as per choice. You can also use GiHub Pages for hosting your version of the website.
+platform as per choice. You can also use GitHub Pages for hosting your version of the website.
 We will also host various designs for the UI which can be used by the user as they prefer.
 
 # About News API
