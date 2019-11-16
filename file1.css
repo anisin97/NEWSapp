@@ -1,7 +1,7 @@
 html{
     position: 0 0 ;
     padding: 0 0 ;
-    background-image: url("map.jpg");
+    background-image: url("/images/map2.jpg");
     background-color: gray;
     height: 100%;
     width: 100%;
@@ -24,7 +24,7 @@ input{
     top: 46%;
     left: 52%;
     z-index: 3;
-    background-image: url("index.png");
+    background-image: url("/images/index.png");
     
     height: 40px;
     width: 40px;
