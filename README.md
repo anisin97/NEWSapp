@@ -7,7 +7,7 @@ project is to enable people to access news that has not been affected by any fab
 the reader can choose what news to prefer.
 
 # Technologies
-This project is currently based on HTML, CSS and JS. These have been uilised for the creation of an 
+This project is currently based on HTML, CSS and JS. These have been utilised for the creation of an 
 interesting UI, consumption and customisation of the api provided by newsapi.org .
 
 # How to Build?
