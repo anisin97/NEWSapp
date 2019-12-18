@@ -1,0 +1,56 @@
+/*SOME COLORS TO BE USED*/
+:root{
+--color-primary:#64EAB5;
+--color-light-1:#33E59E;
+--color-light-2:#0FFB9D;
+--color-light-3:#8BFED0;
+
+--color-dark-1:#1E865C;
+--color-dark-2:#0E6140;
+
+--color-grey-light-1: #faf9f9;
+--color-grey-light-2: #f4f2f2;
+--color-grey-light-3: #f0eeee;
+--color-grey-light-4: #ccc;
+    
+--color-grey-dark-1: #333;
+--color-grey-dark-2: #777;
+--color-grey-dark-3: #999;
+
+--shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+--shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+----line: 1px solid var(--color-grey-light-2);
+}
+
+/*Basics*/
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color:var(--color-dark-1);
+    padding: 3rem;
+}
+
+.page__heading{
+    font-size: 3rem;
+    /*color: #6d5a67;*/
+    text-transform: uppercase;
+}
+
+.news__body{
+    background-color: rgb(0 , 0, 200,0.7);
+    color: white;
+}
