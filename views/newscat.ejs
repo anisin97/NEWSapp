@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News Center</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style type="text/css">
+/*Basics*/
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    /*padding: 3rem;*/
+}
+
+.page__heading{
+    font-size: 4.5rem;
+    color: #6d5a67;
+    text-transform: uppercase;
+    margin: 4rem 0;
+    text-align: center;
+
+}
+
+.news__body:nth-of-type(odd){
+    background-color: rgb(0 , 0, 200,0.7);
+    color: white;
+    border-radius: 10rem;
+    padding: 4rem;
+    margin: 2rem 0rem;
+    width: 100rem;
+}
+.news__body:nth-of-type(even){
+    background-color: rgb(0 , 65, 200,0.7);
+    color: white;
+    border-radius: 10rem;
+    padding: 4rem;
+    margin: 2rem 10rem;
+    width: 100rem;
+}
+	</style>
+</head>
+<body>
+
+<h1 class="page__heading"><%= newsArr[0].category%> NEWS</h1>
+<% newsArr.forEach(function(news){ %>
+	<div class="news__body">
+		<h3 class="news__body--name"><%=news.name%></h3>
+		<p class="news__body--descr"><%=news.description%></p>
+		<a href='<%=news.url%>' class="btn btn-lg btn-primary">Visit Website</a>
+	</div>
+<% }) %>
+
+</body>
+</html>

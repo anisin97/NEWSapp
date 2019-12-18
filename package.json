@@ -1,0 +1,27 @@
+{
+  "name": "newsapp",
+  "version": "1.0.0",
+  "description": "A Web-App that hosts leading news and different newspapers of various countries on a common platform..",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "newsapi": "^2.4.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theprover97/NEWSapp.git"
+  },
+  "author": "nik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theprover97/NEWSapp/issues"
+  },
+  "homepage": "https://github.com/theprover97/NEWSapp#readme"
+}
